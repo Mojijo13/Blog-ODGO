@@ -1,0 +1,190 @@
+.v-application {
+  font-family: $body-font-family, sans-serif !important;
+  font-size: 14px !important;
+  background: $light-grey !important;
+}
+.v-app-bar {
+  background: $light-grey !important;
+  border-bottom: 1px solid $middle-grey !important;
+  padding: 0 !important;
+}
+.v-toolbar__content {
+  padding: 0 !important;
+}
+.logo-header {
+  width: 170px;
+  max-height: 100%;
+  margin-top: 10px !important;
+  cursor: pointer;
+  overflow: hidden;
+}
+ul, li {
+  list-style: none !important;
+}
+a{
+  text-decoration: none !important;
+}
+.v-image {
+  h1,
+  h3 {
+    color: $white !important;
+    text-align: center !important;
+  }
+  h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  h3 span {
+    color: $color-red;
+  }
+  .v-btn {
+    transition: all 0.3s ease-in-out !important;
+  }
+  .v-btn:hover {
+    color: $color-red !important;
+  }
+}
+.myRed {
+  color: $color-red !important;
+}
+
+#content,
+#about {
+  color: #000 !important;
+  font-size: 1.2rem !important;
+  font-style: normal !important;
+}
+#content h1 {
+  font-size: 2.7rem !important;
+  line-height: 3.2rem !important;
+  text-align: center !important;
+}
+.v-application #content p {
+  margin-bottom: 12px !important;
+}
+.v-application #content ul {
+  font-size: 1.2rem !important;
+  margin-bottom: 24px !important;
+  padding-left: 0;
+}
+.v-application #content h2 {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+  margin-top: 60px !important;
+  line-height: 2.5rem !important;
+  text-transform: lowercase !important;
+  color: #000 !important;
+}
+.v-application #content h2::first-letter {
+  text-transform: uppercase !important;
+}
+.v-application #content h2::after {
+  content: '' !important;
+  display: block !important;
+  height: 4px !important;
+  width: 250px !important;
+  background-color: black !important;
+  margin-bottom: 30px !important;
+  margin-top: 5px !important;
+}
+.v-application #content h3 {
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  margin-top: 30px !important;
+  line-height: 2rem !important;
+  color: #000 !important;
+}
+.v-application #content h3 span {
+  text-decoration: none !important;
+}
+.v-application #content img {
+  width: 100% !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+}
+.v-application #content blockquote {
+  display:block;
+  background-color: $light-grey !important;
+  font-size: 2rem !important;
+  line-height: 2.3rem !important;
+  font-style: italic !important;
+  color: $color-red !important;
+  font-weight: 200 !important;
+  margin: 60px 30px !important;
+  text-transform: lowercase !important;
+}
+.v-application #content blockquote::first-letter {
+  text-transform: uppercase !important;
+}
+.wp-block-group, .so-widget-sow-button {
+  display: none !important;
+}
+.v-application #content iframe {
+  width: 100% !important;
+}
+.v-application #content a {
+  color: $color-red !important;
+}
+.v-application #content p strong,
+.v-application #about p strong  {
+  font-weight: 400 !important;
+}
+.v-application #content strong {
+  font-weight: 600 !important;
+}
+.v-application #content b {
+  font-weight: 300 !important;
+}
+button.btn-share {
+  width:40px !important;
+  height: 40px !important;
+  border: 1px solid #000 !important;
+  border-radius: 20px !important;
+  margin: 0 2px !important; 
+  transition: all 0.3s ease-in-out !important;
+}
+button.btn-share:hover{
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+#about h1 {
+  font-size: 3rem !important;
+  line-height: 3.5rem !important;
+}
+.v-application #about blockquote {
+  display:block;
+  background-color: $light-grey !important;
+  font-size: 2rem !important;
+  line-height: 2.3rem !important;
+  font-style: italic !important;
+  color: $color-red !important;
+  font-weight: 200 !important;
+  margin: 45px 60px 45px 0px !important;
+  text-transform: lowercase !important;
+}
+.v-btn::before {
+  background-color: $light-grey !important;
+}
+
+.v-application #about .wp-block-image {
+  width: 100% !important;
+  height: 400px !important;
+  overflow: hidden !important;
+  margin: 30px 0 !important;
+  img {
+    width: 100% !important;
+    height: auto !important;
+    transform: translateY(-35%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .v-application #about .wp-block-image {
+    img {
+      width: auto !important;
+      height: 100% !important;
+      transform: translateY(-0%);
+    }
+  }
+}

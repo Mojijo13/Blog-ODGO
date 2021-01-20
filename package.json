@@ -21,7 +21,7 @@
     "@nuxtjs/vuetify": "^1.11.0",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "gsap": "^3.2.4",
+    "gsap": "^3.6.0",
     "nuxt": "^2.0.0",
     "sib-api-v3-sdk": "^7.1.4",
     "vue-social-sharing": "^2.4.7",
